@@ -1,0 +1,77 @@
+html, body {
+	height: 100%;
+	background: 51;
+  }
+  
+  body {
+	background: 51;
+	margin: 0;
+	display: flex;
+  
+	/* This centers our sketch horizontally. */
+	justify-content: center;
+  
+	/* This centers our sketch vertically. */
+	align-items: center;
+  }
+
+#inactive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background: red;
+}
+
+#inactive p {
+	margin-left: 10px;
+	background: 51;
+}
+
+.hidden {
+	display: none;
+}
+
+.loading {
+	background: gray;
+}
+.loading:after{
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	content: 'Loading model...';
+}
+
+
+
+canvas  {
+
+	box-shadow: 0px 0px 9px 4px white;
+}
+
+button {
+	background-color: white; /* Green */
+	border: none;
+	color: black;
+	padding: 5px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+.range {
+
+	-webkit-appearance: none;  /* Override default CSS styles */
+	appearance: none;
+	width: 100%; /* Full-width */
+	height: 25px; /* Specified height */
+	background: #d3d3d3; /* Grey background */
+	outline: none; /* Remove outline */
+	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	transition: opacity .2s;
+}
