@@ -27,7 +27,6 @@ async function checkModel() {
 
 function setup() {
 
-  button = createButton('save');
   slider = createSlider(0.5,5, 100, .1);
  
 
@@ -45,7 +44,6 @@ function draw() {
 
   button.position(19, 19);
   slider.position(15, 70);
-  button.mousePressed(save);
   
 }
 
