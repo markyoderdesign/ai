@@ -48,22 +48,7 @@ function draw() {
 }
 
 
-function save() {
 
-  saveCanvas('myCanvas', 'jpg');
-
-}
-//   seed = 0;
-//   if(this.value()!=""){
-//     let text = this.value()
-//     for(let t = 0; t < text.length; t++){
-//       // print(text[t].charCodeAt())
-//       seed+=int(text[t].charCodeAt())
-//     }
-//     // print(seed)
-//     getImageFromRunway()
-//   }
-// }
 
 function mousePressed() {
 
